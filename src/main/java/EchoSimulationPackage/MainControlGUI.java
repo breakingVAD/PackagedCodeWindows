@@ -63,7 +63,7 @@ public class MainControlGUI {
         gbc_panel_1.gridx = 1;
         gbc_panel_1.gridy = 1;
 
-        ImageIcon ic = new ImageIcon(getClass().getResource("/breakingVADicon.png"));
+        ImageIcon ic = new ImageIcon(getClass().getResource("/breakingvadicon.png"));
         GridBagConstraints gbc_ic = new GridBagConstraints();
         gbc_ic.fill = GridBagConstraints.NONE;
         gbc_ic.anchor = GridBagConstraints.NORTHWEST;

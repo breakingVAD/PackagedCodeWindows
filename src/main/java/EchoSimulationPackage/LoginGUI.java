@@ -29,7 +29,7 @@ public class LoginGUI {
         panel.setLayout(gbl_panel);
 
         panel_1 = new JPanel();
-        ImageIcon ic = new ImageIcon(getClass().getResource("/breakingVADicon.png"));
+        ImageIcon ic = new ImageIcon(getClass().getResource("/breakingvadicon.png"));
         GridBagConstraints gbc_ic = new GridBagConstraints();
         gbc_ic.fill = GridBagConstraints.NONE;
         gbc_ic.insets = new Insets(0, 0, 0, 5);
