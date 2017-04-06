@@ -24,7 +24,7 @@ class ProbeDetection {
     private static LoginGUI loginGUI;
 
     public static void main(String[] args) {
-        System.load(ProbeDetection.class.getResource("rxtxSerial.dll").getPath());
+        System.load(ProbeDetection.class.getResource("/rxtxSerial.dll").getPath());
         FirebaseOptions options;
         try {
             InputStream fileInputStream = ProbeDetection.class.getResourceAsStream("/breaking-vad-online-simulation-firebase-adminsdk-pn399-0fa8b48b27.json");
